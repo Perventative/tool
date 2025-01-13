@@ -15,8 +15,8 @@ from placekey.api import PlacekeyAPI
 from io import StringIO
 st.cache_resource.clear()
 placekey_api_key = "kPiQScbIp1BlxMChirEljha7fh2FatF8"
-url = "https://storage.googleapis.com/rei_tool/placekeys_standardized%20copy%207%20(2).csv"
-zrl = "https://storage.googleapis.com/rei-tool/REI_01-08-2025_standradised_with%20placekeys.csv"
+url = "gs://rei-tool/placekeys_standardized copy 7 (2).csv"
+zrl = "gs://rei-tool/REI_01-08-2025_standradised_with placekeys.csv"
 
 # Make a request to get the first CSV file
 response = requests.get(url)
